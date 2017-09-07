@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    gitlab (4.2.0)
+      httparty
+      terminal-table
+    gitlab-devops (0.1.2)
+      gitlab
+    httparty (0.15.6)
+      multi_xml (>= 0.5.2)
+    multi_xml (0.6.0)
+    terminal-table (1.8.0)
+      unicode-display_width (~> 1.1, >= 1.1.1)
+    unicode-display_width (1.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  gitlab-devops
+
+BUNDLED WITH
+   1.16.0.pre.2
